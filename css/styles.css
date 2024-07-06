@@ -94,8 +94,6 @@ img {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -119,6 +117,8 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /*--- 1 - hero ---*/
@@ -161,7 +161,6 @@ img {
 .hero-btn:focus {
     background-color: #404BBF;
 }
-
 
 /*--- 2 - features ---*/
 .features {
